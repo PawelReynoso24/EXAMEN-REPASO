@@ -5,6 +5,33 @@
     <div class="jumbotron">
         <h1>SPOTIFY</h1>
         <p class="lead">Biblioteca de Música</p>
+        <p class="lead">&nbsp;</p>
+        <p style="font-size: medium">Nombre del Álbum:&nbsp;
+            <asp:TextBox ID="TextBoxAlbumnombre" runat="server" Width="215px"></asp:TextBox>
+        </p>
+        <p class="lead">Artista del Álbum:&nbsp; <asp:TextBox ID="TextBoxAlbumartista" runat="server" Width="215px"></asp:TextBox>
+        </p>
+        <p class="lead">Fecha de Publicación:&nbsp;
+            <asp:TextBox ID="TextBoxAlbumfecha" runat="server" Width="215px"></asp:TextBox>
+        </p>
+        <p class="lead">&nbsp;</p>
+        <p class="lead">Canción:&nbsp;&nbsp;
+            <asp:TextBox ID="TextBoxAlbumcancion" runat="server" Width="215px"></asp:TextBox>
+        </p>
+        <p class="lead">Artista:&nbsp;
+            <asp:TextBox ID="TextBoxAlbumnombreartista" runat="server" Width="215px"></asp:TextBox>
+        </p>
+        <p class="lead">Tiempo de Duración:&nbsp;
+            <asp:TextBox ID="TextBoxAlbumduracion" runat="server" Width="215px"></asp:TextBox>
+        </p>
+        <p class="lead">&nbsp;</p>
+        <p class="lead">
+            <asp:Button ID="Button1" runat="server" Text="Ingresar Canción" Width="143px" />
+        </p>
+        <p class="lead">&nbsp;</p>
+        <p class="lead">
+            <asp:Button ID="Button2" runat="server" Text="Ingresar al Álbum" Width="143px" />
+        </p>
     </div>
 
     </asp:Content>
