@@ -30,7 +30,7 @@
         </p>
         <p class="lead">&nbsp;</p>
         <p class="lead">
-            <asp:Button ID="ButtonIngresarAlbum" runat="server" Text="Ingresar al Álbum" Width="143px" />
+            <asp:Button ID="ButtonIngresarAlbum" runat="server" Text="Ingresar al Álbum" Width="143px" OnClick="ButtonIngresarAlbum_Click" />
         </p>
     </div>
 
