@@ -26,11 +26,11 @@
         </p>
         <p class="lead">&nbsp;</p>
         <p class="lead">
-            <asp:Button ID="Button1" runat="server" Text="Ingresar Canción" Width="143px" />
+            <asp:Button ID="ButtonIngresarCancion" runat="server" Text="Ingresar Canción" Width="143px" OnClick="Button1_Click" />
         </p>
         <p class="lead">&nbsp;</p>
         <p class="lead">
-            <asp:Button ID="Button2" runat="server" Text="Ingresar al Álbum" Width="143px" />
+            <asp:Button ID="ButtonIngresarAlbum" runat="server" Text="Ingresar al Álbum" Width="143px" />
         </p>
     </div>
 

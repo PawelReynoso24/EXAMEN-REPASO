@@ -5,7 +5,7 @@
         Edición de canciones</h1>
     <p>
         Álbum:&nbsp;
-        <asp:DropDownList ID="DropDownList1" runat="server">
+        <asp:DropDownList ID="DropDownList1" runat="server" Height="16px" Width="141px">
         </asp:DropDownList>
     </p>
     <p>
@@ -29,6 +29,6 @@
     <p>
         &nbsp;</p>
     <p>
-        <asp:Button ID="ButtonActualizar" runat="server" Text="Actualizar Canción" Width="143px" />
+        <asp:Button ID="ButtonActualizar" runat="server" Text="Actualizar Canción" Width="169px" />
     </p>
 </asp:Content>
