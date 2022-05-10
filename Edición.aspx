@@ -7,6 +7,8 @@
         Álbum:&nbsp;
         <asp:DropDownList ID="DropDownList1" runat="server" Height="16px" Width="141px">
         </asp:DropDownList>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="ButtonBuscar" runat="server" Text="Buscar" OnClick="ButtonBuscar_Click" />
     </p>
     <p>
         &nbsp;</p>
@@ -14,8 +16,7 @@
         <span style="font-size: medium">Nombre:</span>&nbsp;
         <asp:TextBox ID="TextBoxNombrecancion" runat="server" Width="230px"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="ButtonBuscar" runat="server" Text="Buscar" />
-    </p>
+        </p>
     <p>
         &nbsp;</p>
     <p>
@@ -31,4 +32,6 @@
     <p>
         <asp:Button ID="ButtonActualizar" runat="server" Text="Actualizar Canción" Width="169px" />
     </p>
+    <p>
+        &nbsp;</p>
 </asp:Content>

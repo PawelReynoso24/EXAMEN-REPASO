@@ -36,6 +36,21 @@ namespace EXAMEN_REPASO
             albumTemp = JsonConvert.DeserializeObject<List<Album>>(json);
         }
 
+        private void Guardar()
+        {
+            //Suponiendo que la List llamada lista ya contiene datos
+
+            //Se serializa (convierte) la lista en formato Json y se guarda en una variable de tipo string
+            string json = JsonConvert.SerializeObject(albumTemp);
+
+            //El nombre del archivo
+            string archivo = Server.MapPath("Datos de Biblioteca.json");
+
+            //Se escribe la variable que contiene el json al archivo en un solo paso
+            //con WriteAllText se escribe todo de un solo
+            System.IO.File.WriteAllText(archivo, json);
+        }
+
         protected void Button1_Click(object sender, EventArgs e)
         {
             Cancion cancion = new Cancion();
@@ -47,7 +62,12 @@ namespace EXAMEN_REPASO
 
         protected void ButtonIngresarAlbum_Click(object sender, EventArgs e)
         {
-
+            Album album = new Album();
+            album.NombreAlbum = TextBoxAlbumnombre.Text;
+            album.artistaAlbum = TextBoxAlbumartista.Text;
+            album.fecha = TextBoxAlbumfecha.Text;
+            album.cancion = cancionTemp.ToArray().ToList();
+            albumTemp.Add(album);
         }
     }
 }
