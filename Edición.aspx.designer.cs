@@ -24,15 +24,6 @@ namespace EXAMEN_REPASO
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
 
         /// <summary>
-        /// Control TextBoxNombrecancion.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxNombrecancion;
-
-        /// <summary>
         /// Control ButtonBuscar.
         /// </summary>
         /// <remarks>
@@ -40,6 +31,15 @@ namespace EXAMEN_REPASO
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ButtonBuscar;
+
+        /// <summary>
+        /// Control TextBoxNombrecancion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxNombrecancion;
 
         /// <summary>
         /// Control TextBoxArtistacancion.
